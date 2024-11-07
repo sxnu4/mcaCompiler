@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.regex.*;
 import java.util.*;
-public class RegEx{
+public class RegExMail{
     public static boolean isValid(String email) 
     { 
         String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\."+ 
@@ -19,8 +19,8 @@ public class RegEx{
     { 
         ArrayList<String> address = new ArrayList<>(); 
             
-          address.add("review-team@geeksforgeeks.org"); 
-          address.add("writing.geeksforgeeks.org"); 
+        address.add("sonu.ok433gmail.com"); 
+        address.add("sonu.ok433@gmail.com"); 
             
         for(String i : address){ 
             if (isValid(i)) 
